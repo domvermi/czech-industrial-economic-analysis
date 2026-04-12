@@ -20,8 +20,10 @@ Current status
 cleaned and processed raw data from the Czech Statistical Office
 created structured datasets ready for analysis
 developed Jupyter notebooks documenting the data preparation process
+built data model
+![Model](PowerBI_model_industry.png)
 
-The next step will be building a data model and creating a Power BI dashboard.
+The next step will be creating a Power BI dashboard.
 
 ## Planned analysis
 
