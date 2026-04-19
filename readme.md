@@ -10,29 +10,41 @@ I wanted to practice working with real-world economic data and go through the fu
 
 The original data required extensive cleaning and transformation, as the source files were inconsistent and difficult to work with.
 
-Cleaning and transforming data in Python (Pandas)
-Combining multiple datasets into a unified structure (Jupyter Notebook)
-Preparing final datasets for further analysis and visualization (Power BI)
-Current status
+- Cleaning and transforming data in Python (Pandas)
+- Combining multiple datasets into a unified structure (Jupyter Notebook)  
+- Preparing final datasets for further analysis and visualization (Power BI)  
+- Creating dimension tables (industry, region, year)  
+- Designing and implementing a data model (fact + dimension)  
+- Creating basic DAX measures
 
-## At this stage, I have:
 
-cleaned and processed raw data from the Czech Statistical Office
-created structured datasets ready for analysis
-developed Jupyter notebooks documenting the data preparation process
-built data model
+## Dashboard
+
+In Power BI, I created an interactive dashboard structured into several sections:
+
+1. Economic overview
+- key KPI indicators (GDP, wages, employment, number of entities)
+- overall employment trend over time
+- basic relationship between wages and employment
+2. Industry comparison
+- development of average wages and employment by industry
+- comparison of top industries by wages and employment
+- analysis of employees per company (company size)
+3. Market structure
+- distribution of economic entities across industries
+- trend in the number of companies over time
+- relationship between number of companies and employment
+
+The dashboard allows filtering by year, region, and industry, enabling more detailed exploration of specific segments.
 ![Model](PowerBI_model_industry.png)
 
-The next step will be creating a Power BI dashboard.
-
-## Planned analysis
-
-In the next phase, I want to focus on:
-
-trends in GDP, wages, employment and economic entities
-relationships between key economic indicators
-differences across time and potentially regions
+## Insights
+- There are significant differences between industries, not only in wage levels, but also in employment structure
+- Manufacturing employs the largest number of people, but wages are close to the average
+- High-wage industries (e.g. finance or ICT) tend to employ fewer people
+- Mining is characterized by a smaller number of large companies with large number of people
+- Market structure varies significantly – some industries consist of many small companies, while others are dominated by larger enterprises
 ## Open questions
-How are GDP, wages and employment related over time?
-Are there visible long-term trends in economic activity?
-How do different indicators influence each other?
+Which industries show the strongest long-term growth trends in employment and wages? 
+Is there a relationship between the number of companies in an industry and its average wage level?
+Are there industries where employment is growing but wages are stagnating?
