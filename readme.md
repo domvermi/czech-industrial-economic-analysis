@@ -36,7 +36,7 @@ In Power BI, I created an interactive dashboard structured into several sections
 - relationship between number of companies and employment
 
 The dashboard allows filtering by year, region, and industry, enabling more detailed exploration of specific segments.
-![Model](PowerBI_model_industry.png)
+![Model](PowerBI_dashboard.png)
 
 ## Insights
 - There are significant differences between industries, not only in wage levels, but also in employment structure
