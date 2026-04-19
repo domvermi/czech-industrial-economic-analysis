@@ -1,4 +1,4 @@
-# Czech Industrial & Economic Analysis
+# Czech Economy Analysis: Employees, Wages and Industries
 
 In this project, I work with publicly available data from the Czech Statistical Office focused on industrial and economic development in the Czech Republic.
 
